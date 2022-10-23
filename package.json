@@ -1,6 +1,6 @@
 {
-  "name": "my-ds",
-  "version": "0.1.1",
+  "name": "@ciaranrdnr/my-ds",
+  "version": "0.1.2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -25,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=e81150204d53"
   },
   "eslintConfig": {
     "extends": [
@@ -70,13 +71,16 @@
     "@types/gulp": "^4.0.9",
     "@types/gulp-sass": "^5.0.0",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.10.5",
     "prop-types": "^15.8.1",
     "sass": "^1.55.0",
     "webpack": "^5.74.0"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "craco.config.js",
-  "author": "ciara",
+  "author": {
+    "name": "ciara"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
