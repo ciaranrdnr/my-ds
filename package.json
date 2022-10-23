@@ -77,5 +77,13 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "craco.config.js",
   "author": "ciara",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciaranrdnr/my-ds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ciaranrdnr/my-ds/issues"
+  },
+  "homepage": "https://github.com/ciaranrdnr/my-ds#readme"
 }
