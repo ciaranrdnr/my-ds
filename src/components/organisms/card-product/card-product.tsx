@@ -3,7 +3,7 @@ import styles from './styles/card-product.module.css';
 import Card from '../../atoms/card';
 import Image from '../../atoms/image';
 import ContentProduct from '../../molecules/content-product';
-import { buttonTypes } from '@Components/atoms/button/button';
+import { buttonTypes } from '../../atoms/button/button';
 
 interface ICardProductProps extends IProps {
   onClick?: () => void;
